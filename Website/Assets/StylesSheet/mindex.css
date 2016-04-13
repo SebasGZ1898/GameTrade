@@ -1,0 +1,175 @@
+body{
+	background: #000;
+	color: #fff;
+}
+
+.tabs{
+	border: groove 1px #fff;
+}
+
+#paq ul li a{
+	color: #00b8d4;
+}
+
+#paq{
+	position: fixed;
+	width: 100%;
+	z-index: 999
+}
+
+#pa{
+	background: url(images/computer.png);
+	width: 545px;
+	height: 359px;
+	margin-top: 40px;
+	margin-left: 50px;
+	
+}
+
+#dvpa{
+
+	margin-right: 15px; 
+	width: 100%;
+	height: 640px;
+}
+
+
+#nosotr{
+	border:groove 1px;
+	border-radius: 5px;
+	box-shadow: 4px 2px 2px #999;
+}
+
+#border{
+	border: groove 1px;
+	border-radius: 5px;
+	box-shadow: 4px 2px 2px #999;
+}
+
+ 
+
+#letra{
+	font-size: 90px;
+	padding-top: 100px;
+	color: #1a237e;
+	font-style: oblique;
+}
+
+
+#artUsa{
+	background: url(images/todo1.png) no-repeat;
+	width: 480px;
+	height: 279px;
+	vertical-align: top;
+	margin-left: -10px;
+	margin-bottom: 10px;
+}
+
+#usa{
+	border-radius: 5px;
+	border:groove 1px;
+	box-shadow: 4px 2px 2px  #999;
+}
+
+
+h2{
+	font-family: oblique;
+}
+
+#dvViIma{
+	background: url(images/www.jpg) no-repeat;
+	width: 480px;
+	height: 450px;
+}
+
+p{
+	font-size: 17px;
+}
+
+
+
+#dv_e1:hover{
+	box-shadow: 0 0 30px #00f;
+}
+
+#dv_e2:hover{
+	box-shadow: 0 0 30px #00f;
+}
+
+#dv_e3:hover{
+	box-shadow: 0 0 30px #00f;
+}
+
+#dv_e4:hover{
+	box-shadow: 0 0 30px #00f;
+}
+
+
+
+
+
+#letra{
+	background: url(images/texto.png);
+	width: 614px;
+	height: 193px;
+	margin-top: 50px;
+	margin-left: 300px;
+}
+
+
+
+
+
+
+#dv_e1{
+	background: url(images/anderson1.jpg) no-repeat;
+	width: 180px;
+	margin-left: 30px;
+	height: 400px;
+}
+#dv_e2{
+	background: url(images/sebastian.jpg) no-repeat;
+	width: 180px;
+	height: 400px;
+	margin-left: 60px;
+}
+#dv_e3{
+	background: url(images/wilton.jpg) no-repeat;
+	width: 180px;
+	height: 400px;
+	margin-left: 60px;
+}
+#dv_e4{
+	background: url(images/cristian.jpg) no-repeat;
+	width: 180px;
+	height: 400px;
+	margin-left: 60px;
+}
+
+
+#gif{
+	background: url(images/sonic3.gif);
+	width: 134px;
+	height: 240px;
+	display: inline-block;
+}
+
+
+
+
+
+.animation{
+  -webkit-animation: animation ease-in 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    -webkit-transform:  translate(-300px,5px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(1360px,4px)  ;
+  }
+}
+
